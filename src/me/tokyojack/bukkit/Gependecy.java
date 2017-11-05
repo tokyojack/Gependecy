@@ -1,4 +1,4 @@
-package me.tokyojack.mcmarket.util;
+package nameOfPackage;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
