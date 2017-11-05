@@ -6,7 +6,7 @@ INSTRUCTIONS:
 2. Change the package at the top to your needed one, and you're good to go!
 
 TO USE:
-1. Check out the test/test.java file for an example.
+1. Check out the test/Test.java file for an example.
 
 Now you've just install the program! You're a pretty cool person:
 1. ```(•_•)```
