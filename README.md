@@ -7,7 +7,7 @@ INSTRUCTIONS:
 
 TO USE:
 
-Here's a quick example of it with Vault. (Just quick example)
+Here's a quick example of it with Vault.
 ```
 public class Test extends JavaPlugin {
 
