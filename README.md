@@ -2,11 +2,13 @@
 <p  align="center">A simple util class for handling plugin dependencies.</p>
 
 <br/>
-INSTRUCTIONS:
+
+## Instructions:
+
 1. Copy and paste the util class from ```src/me/tokyojack/bukkit``` to your project into a class called ```Gependecy```
 2. Change the package at the top to your needed one, and you're good to go!
 
-TO USE:
+## To use:
 
 Here's a quick example of it with Vault.
 ```
