@@ -11,7 +11,7 @@
 ## Usage:
 
 Here's a quick example of it with Vault.
-```
+```java
 public class Test extends JavaPlugin {
 
 	private Economy economy;
