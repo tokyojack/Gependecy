@@ -1,6 +1,7 @@
-# Gependecy
-A simple util class for handling plugin dependencies.
+<h2  align="center">Gependecy</h2>
+<p  align="center">A simple util class for handling plugin dependencies.</p>
 
+<br/>
 INSTRUCTIONS:
 1. Copy and paste the util class from ```src/me/tokyojack/bukkit``` to your project into a class called ```Gependecy```
 2. Change the package at the top to your needed one, and you're good to go!
@@ -57,7 +58,6 @@ public class Test extends JavaPlugin {
 }
 ```
 
-Now you've just install the program! You're a pretty cool person:
-1. ```(•_•)```
-2. ```( •_•)>⌐■-■```
-3. ```(⌐■_■)```
+##
+
+Now you've just obtained the plugin! You show now be able to finally manager your dependencies  ```ლ,ᔑ•ﺪ͟͠•ᔐ.ლ```
