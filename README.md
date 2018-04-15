@@ -8,7 +8,7 @@
 1. Copy and paste the util class from ```src/me/tokyojack/bukkit``` to your project into a class called ```Gependecy```
 2. Change the package at the top to your needed one, and you're good to go!
 
-## To use:
+## Usage:
 
 Here's a quick example of it with Vault.
 ```
