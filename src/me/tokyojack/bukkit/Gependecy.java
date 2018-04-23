@@ -24,10 +24,15 @@ public abstract class Gependecy {
 
 	public abstract void ifNotFound();
 
+	/**
+	 * Check's if the plugin is on the server
+	 */
 	public void check() {
+		// If the plugin is either null or is not enabled
 		if (Bukkit.getPluginManager().getPlugin(this.dependecyPluginName) == null
 				|| !Bukkit.getPluginManager().getPlugin(this.dependecyPluginName).isEnabled()) {
 
+			// If the plugin is required if needing to work
 			if (isRequired)
 				Bukkit.getPluginManager().disablePlugin(this.javaPlugin);
 
@@ -38,10 +43,17 @@ public abstract class Gependecy {
 			ifNotFound();
 		} else {
 			logToConsole(ChatColor.GREEN + "The plugin '" + this.dependecyPluginName + "' has been found.");
+			
+			this.isFound = true;
 			ifFound();
 		}
 	}
 
+	/**
+	 * If the plugin was found
+	 *
+	 * @return boolean - If plugin was found
+	 */
 	public boolean isFound() {
 		return this.isFound;
 	}
