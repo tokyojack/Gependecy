@@ -1,5 +1,5 @@
 <h2  align="center">Gependecy</h2>
-<p  align="center">A easy util class for handling plugin dependencies</p>
+<p  align="center">A Bukkit utility for handling plugin dependencies</p>
 
 <br/>
 
